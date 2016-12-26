@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dgyor resume</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dgyor Resume">
+    <meta name="author" content="Dennis Gyor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- imports -->
+
+    <!-- install less -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+    <!-- install jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link href="css/app.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick = $("#menu-close").click(); >Menu</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Overview</a>
+            </li>
+            <li>
+                <a href="#online_resume" onclick = $("#menu-close").click(); >Resume</a>
+            </li>
+            <li>
+                <a href="#Timeline" onclick = $("#menu-close").click(); >Timeline</a>
+            </li>
+            <li>
+                <a href="#skills" onclick = $("#menu-close").click(); >Skills Matrix</a>
+            </li>
+            <li>
+                <a href="#Interactive_map" onclick = $("#menu-close").click(); >Interacitve Map</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- count particles -->
+    <div class="count-particles">
+        <span class="js-count-particles">--</span> particles
+    </div>
+
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <!-- scripts -->
+    <script src="../particles.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Dennis W. Gyor</h1>
+              <br>
+            <h2><em>Do nothing which is of no use. <br>~Miyamoto Musashi</em></h2>
+              <br>
+            <a href="#about" class="btn btn-light btn-lg">ENTER</a>
+          </div>
+        </div>
+    </header>
+    <!-- Home -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2>Overview</h2>
+                    <p>Welcome to my responsive single page application and blog! As an IT professional, I have over fifteen years of experience at multiple levels of operational and technical levels in the industry. This is a project site that will evolving as I apply techniques and learn new principles. Oh, and its also my resume.<br> Feel free to look around and poke at things.
+                    If you have questions or comments, free free to reach out, my contact information is at the bottom of the page.
+                      <br><br>-Dennis<br>
+                    </p>
+                    <p class="lead">If you want to go straight to the blog, click <a target="_blank" href="http://link.com/">HERE</a>.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Overview -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="online_resume" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Resume</h2>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                                  <i class="fa fa-info-circle fa-5x"></i>
+                                <h4>
+                                    <strong>Employment history</strong>
+                                </h4>
+                                <p>Places I've been.</p>
+                                <a href="#" class="btn btn-dark">GO</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                              <i class="fa fa fa-cogs fa-5x"></i>
+                                <h4>
+                                    <strong>Skills</strong>
+                                </h4>
+                                <p>Stuff I know how to do.</p>
+                                <a href="#" class="btn btn-dark">GO</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                              <i class="fa fa-map-marker fa-5x"></i>
+                                <h4>
+                                    <strong>Map</strong>
+                                </h4>
+                                <p>Maps of the places I've been.</p>
+                                <a href="#" class="btn btn-dark">GO</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="resume-item">
+                                  <i class="fa fa-book fa-5x"></i>
+                                <h4>
+                                    <strong>Blog</strong>
+                                </h4>
+                                <p>Stuff I've learned.</p>
+                                <a href="#" class="btn btn-dark">GO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Adding the skill matrix graphics -->
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center">Skills</h2>
+          <div class="skill-list">
+            <ol style="list-style-type:none">
+              <li><b>Platforms:</b> Unix, Linux (Debian | Red Hat), Mac OS X, WINDOWS 2000, XP, 7, Android, iOS</li>
+              <li><b>Languages:</b> Ruby, Java, Python, JavaScript, HTML, CSS, shell scripting.</li>
+              <li><b>Methodologies:</b> Agile/SCRUM, Kanban, ITIL, 6Sigma, Process improvement and quality project management practices.</li>
+              <li><b>Test and build:</b> Selenium and Selenium Web driver, Test Rail, SOAP UI, Junit, ANT and NANT, Jenkins, Bamboo, Sikuli Script</li>
+              <li><b>Dev/Ops:</b> Ansible, Virtual Box, AWS, vSphere, Virtual Cloud Director, basic networking, DNS</li>
+              <li><b>SCM:</b> CVS, SVN, Maven, SonarQube, Bamboo, Hudson, ANT/NANT, Artifactory, Git.</li>
+              <li><b>Other:</b> Change Management, customer relations and consulting, training, Adobe Illustrator CS5, OmniGraffle, MS Visio, MS Project, Office and Powerpoint.</li>
+            </ol>
+          </div>
+          <!-- add progress bars here -->
+    </section>
+    <!-- Employment History -->
+    <section id="Employment">
+      <h2 class="text-center">Resume</h2>
+        <div id="myCarousel" class="carousel slide">
+          <!-- Indicators -->
+          <div class="text-center">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+              <li data-target="#myCarousel" data-slide-to="6"></li>
+            </ol>
+          </div>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <!-- Job 0 -->
+            <div class="item active">
+              <a href="http://www.ipsoft.com"><img class="img-company-logo" src="img/ipsoft_logo.png"></a>
+                  <div class="job-text">
+                    <h2>IPsoft Inc. | PaaS Manager</h2>
+                    <p><b>June 2015 - Present</b></p>
+                  </div>
+                  <div class="job-text">
+                    <ul>
+                      <li>Lead and coordinate a global team of engineers focused on collaborating with management in the NY office on implementing organizational structure to increase efficiency (tier system/career pathing, monthly knowledge sharing sessions, redundancy coverage plans for critical clients). </li>
+                      <li>Responsible for keeping production environments up and running while monitoring Nagios alerts and coordinating with the various application and client teams (DBAs, Technical Execs, Networking, Application, multiple service teams).</li>
+                      <li>Troubleshooting platform issues which includes the ability to understand and use the following technologies (Java, RPM, Puppet, Bash, SSH, Message queues (Active MQ), Cassandra, Apache, Tomcat, MySQL, networking, OpenVPN, AWS).</li>
+                      <li>Architected automated smoke tests via Ruby Selenium Web driver and XSLT transformation to generate HTML run reports. Also set up the Git repo and wrote documentation on the test architecture.</li>
+                      <li>Take lead on triage conference bridges with external customers during outages/maintenances.</li>
+                      <li>Internal support contact for all Atlassian issues and escalations (Confluence and Jira).</li>
+                      <li>Collaborated with global managers by documenting and designing the L1-L3 system for platform engineers worldwide and also established guidelines and prerequisites for moving into those positions.</li>
+                      <li>Hands on implementation of creations of CIs and adding them to the CMDB and deploying monitoring for various clients and internal infrastructure.</li>
+                      <li>Wrote a load testing framework for REST API calls utilizing Python for use in a high priority customer troubleshooting effort.</li>
+                      <li>Created the defect submission process and guidelines for platform issues. Collaborate with development to prioritize defect commits and deployments for customers in production.</li>
+                      <li>Working with development to establish test cases and automation for the next generation platform.</li>
+                      <li>Take escalations and mentor junior team members on best practices and platform operation.</li>
+                      <li>Coordinate with Technical Executives and team stakeholders on changes and deployments to customer environments.</li>
+                    </ul>
+                  </div>
+            </div>
+            <!-- Job 1 -->
+            <div class="item">
+              <a href="http://www.csc.com/cloud/offerings/53410/104965-csc_agility_platform_cloud_management"><img class="img-company-logo img-responsive" src="img/CSC_Logo.png"></a>
+                <div class="row">
+                  <div class="job-text">
+                    <h2>CSC Inc. | Cloud Platform Engineer</h2>
+                    <p>November 2014 - May 2015</p>
+                  </div>
+                  <div class="job-text">
+                    <ul>
+                      <li>Provide support and escalations of customer issues from the professional services organization. Creating solutions for high priority time sensitive issues in the field.</li>
+                      <li>Coaching various scrum teams and providing guidance for Jira Agile projects. Hosted a remote Jira 101 training session for the global CSC PMO organization.</li>
+                      <li>Implementation and design of the Hybrid cloud CSC offering integrating the Agility product and cloud services/infrastructure in AWS and in VMware Virtual Cloud Director.</li>
+                      <li>Engaging in professional services implementations for new customer engagements by designing proof of concepts via remote working sessions and then handing off to long term engineering teams.</li>
+                      <li>Executed and documented test scenarios as well as implementing quality processes for internal Kickstart project that streamlines complex and time consuming agility installs using node/angular.js.</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <!-- Job 2 -->
+            <div class="item">
+              <a href="http://www.ipsoft.com"><img class="img-company-logo img-responsive" src="img/ipsoft_logo.png"></a>
+                <div class="row">
+                  <div class="job-text">
+                    <h2> | </h2>
+                    <p>November 2014 - May 2015</p>
+                  </div>
+                  <div class="job-text">
+                    <ul>
+                      <li>Lead and coordinate a global team of engineers focused on collaborating with management in the NY office on implementing organizational structure to increase efficiency (tier system/career pathing, monthly knowledge sharing sessions, redundancy coverage plans for critical clients). </li>
+                      <li>Troubleshooting platform issues which includes the ability to understand and use the following technologies (Java, RPM, Puppet, Bash, SSH, Message queues (Active MQ), Cassandra, Apache, Tomcat, MySQL, networking, OpenVPN, AWS).</li>
+                      <li>Architected automated smoke tests via Ruby Selenium Web driver and XSLT transformation to generate HTML run reports. Also set up the Git repo and wrote documentation on the test architecture.</li>
+                      <li>Take lead on triage conference bridges with external customers during outages/maintenances.</li>
+                      <li>Internal support contact for all Atlassian issues and escalations (Confluence and Jira).</li>
+                      <li>Collaborated with global managers by documenting and designing the L1-L3 system for platform engineers worldwide and also established guidelines and prerequisites for moving into those positions.</li>
+                      <li>Hands on implementation of creations of CIs and adding them to the CMDB and deploying monitoring for various clients and internal infrastructure.</li>
+                      <li>Wrote a load testing framework for REST API calls utilizing Python for use in a high priority customer troubleshooting effort.</li>
+                      <li>Created the defect submission process and guidelines for platform issues. Collaborate with development to prioritize defect commits and deployments for customers in production.</li>
+                      <li>Working with development to establish test cases and automation for the next generation platform.</li>
+                      <li>Take escalations and mentor junior team members on best practices and platform operation.</li>
+                      <li>Coordinate with Technical Executives and team stakeholders on changes and deployments to customer environments.</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+
+            <div class="item">
+              <img src="img_flower2.jpg" alt="Flower">
+            </div>
+          </div>
+      </div>
+     <!-- <a href="#" class="btn btn-dark">View more...</a> -->
+    </section>
+    <!-- Left and right controls -->
+    <div class="text-center">
+      <a class="left-carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right-carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Dennis W. Gyor</strong>
+                    </h4>
+                    <p>12319 Wycliff Ln.
+                        <br>Austin, TX 78727</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (512) 789-0006</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:dennisgyor@gmail.com">dennisgyor@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; BMK LLC. 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+</body>
+</html>
