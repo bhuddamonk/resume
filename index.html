@@ -14,13 +14,13 @@
     <!-- install less -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
     <!-- install jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
@@ -30,10 +30,10 @@
 
 <body>
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <a id="menu-toggle" href="#" class="btn btn-light btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
                 <a href="#top" onclick = $("#menu-close").click(); >Menu</a>
             </li>
@@ -57,6 +57,7 @@
             </li>
         </ul>
     </nav>
+    <!-- Dynamic particles using particle.js on the landing page. -->
     <!-- count particles -->
     <div class="count-particles">
         <span class="js-count-particles">--</span> particles
@@ -77,25 +78,29 @@
               <br>
             <h2><em>Do nothing which is of no use. <br>~Miyamoto Musashi</em></h2>
               <br>
-            <a href="#about" class="btn btn-light btn-lg">ENTER</a>
+            <a href="#summary" class="btn btn-light btn-lg">ENTER</a>
           </div>
         </div>
     </header>
     <!-- Home -->
-    <section id="about" class="services">
+    <section id="summary" class="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-left">
-                    <h2>Summary</h2>
-                    <p>Hello,
-As a quality engineering professional and process improvement manager with more than 15 years of combined experience in the healthcare, financial, and technology services industries, I have led software projects, software product deployments, and crafted end to end quality engineering initiatives. I have extensive experience leading start-up software companies and delivering high quality products on-time and on-budget.
-I have the proven ability to provide senior leadership in establishing IT strategy, goals, and priorities for large and small companies. Key strengths include collaborating with development/IT to create lightweight quality processes, test architecture and code, and creating a positive culture and work ethic.
-Having successfully managed multiple software projects and achieved consistent measurable increase in software quality, I am eager to discuss opportunities to join the Credit Cards.com team.
-Examples of key achievements include:
-Successfully led teams of quality professionals (testers, developers and engineers) using positive concepts, a collaborative culture, and accountability for all actions as a team.
-Consistently collaborating with management and iteratively improving quality and deployment of software projects.
-Built a continuous integration pipeline from a legacy hand built system with using industry standard tools. This resulted in ability to integrate with the infrastructure and decreased build and test times significantly.
-For a more detailed presentation of my skills and background, please review the enclosed resume and feel free to contact me at your earliest convenience. Thank you in advance for your consideration and I look forward to your call.
+                <div class="col-sm-12 text-left">
+                    <h2 class="services">Summary</h2>
+                    <p>Hello,<br></br>
+                        As a quality engineering professional and process improvement manager with more than 15 years of combined experience in the healthcare, financial, and technology services industries, I have led software projects, software product deployments, and crafted end to end quality engineering initiatives. I have extensive experience leading start-up software companies and delivering high quality products on-time and on-budget.
+                        I have the proven ability to provide senior leadership in establishing IT strategy, goals, and priorities for large and small companies. Key strengths include collaborating with development/IT to create lightweight quality processes, test architecture and code, and creating a positive culture and work ethic.
+                        Having successfully managed multiple software projects and achieved consistent measurable increase in software quality, I am eager to discuss opportunities to join the Credit Cards.com team.
+                        Examples of key achievements include:</p>
+                        <ol>
+                            <li>Successfully led teams of quality professionals (testers, developers and engineers) using positive concepts, a collaborative culture, and accountability for all actions as a team.</li>
+                            <li>Consistently collaborating with management and iteratively improving quality and deployment of software projects.</li>
+                            <li>Built a continuous integration pipeline from a legacy hand built system with using industry standard tools. This resulted in ability to integrate with the infrastructure and decreased build and test times significantly.</li>
+                        </ol>
+                    <p>
+                        For a more detailed presentation of my skills and background, please review the enclosed resume and feel free to contact me at your earliest convenience. Thank you in advance for your consideration and I look forward to your call.
+                    </p>
                       <br><br>-Dennis<br>
                     </p>
                 </div>
@@ -119,7 +124,7 @@ For a more detailed presentation of my skills and background, please review the 
                                     <strong>Employment history</strong>
                                 </h4>
                                 <p>Places I've been.</p>
-                                <a href="#" class="btn btn-dark">GO</a>
+                                <a href="#" class="btn btn-light">GO</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -129,7 +134,7 @@ For a more detailed presentation of my skills and background, please review the 
                                     <strong>Skills</strong>
                                 </h4>
                                 <p>Stuff I know how to do.</p>
-                                <a href="#" class="btn btn-dark">GO</a>
+                                <a href="#" class="btn btn-light">GO</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -139,7 +144,7 @@ For a more detailed presentation of my skills and background, please review the 
                                     <strong>Map</strong>
                                 </h4>
                                 <p>Maps of the places I've been.</p>
-                                <a href="#" class="btn btn-dark">GO</a>
+                                <a href="#" class="btn btn-light">GO</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -149,7 +154,7 @@ For a more detailed presentation of my skills and background, please review the 
                                     <strong>Blog</strong>
                                 </h4>
                                 <p>Stuff I've learned.</p>
-                                <a href="#" class="btn btn-dark">GO</a>
+                                <a href="#" class="btn btn-light">GO</a>
                             </div>
                         </div>
                     </div>
@@ -224,7 +229,7 @@ For a more detailed presentation of my skills and background, please review the 
             </div>
             <!-- Job 1 -->
             <div class="item">
-              <a href="http://www.csc.com/cloud/offerings/53410/104965-csc_agility_platform_cloud_management"><img class="img-company-logo img-responsive" src="img/CSC_Logo.png"></a>
+              <a href="http://www.csc.com/cloud/offerings/53410/104965-csc_agility_platform_cloud_management"><img class="img-company-logo" src="img/CSC_Logo.png"></a>
                 <div class="row">
                   <div class="job-text">
                     <h2>CSC Inc. | Cloud Platform Engineer</h2>

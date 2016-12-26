@@ -114,9 +114,9 @@ canvas{
 .img-company-logo {
   background-size: 100px 50px, contain;
   margin: 20px;
-  /*display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center*/
+  justify-content: center
 }
 /* Custom Button Styles */
 
@@ -267,6 +267,10 @@ hr.small {
 
 .bg-primary {
   background-color: rgb(19, 27, 45);
+}
+
+.img-responsive {
+  align: center;
 }
 
 /* Skills */
