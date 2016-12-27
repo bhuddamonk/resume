@@ -375,26 +375,6 @@ hr.small {
   width: 80%;
 }
 
-/* Portfolio */
-/*
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}*/
-
-
-
 /* Carousel */
 
 @import ".../bootstrap.less";
@@ -405,10 +385,11 @@ hr.small {
 .active {
     max-width: 100%;
     max-height: 900px;
+    min-height: 900px;
 }
 
 .left-carousel-control, .right-carousel-control {
-        background-image: none;
+        /*background-image: none;*/
        .reset-filter(); // reset IE gradient filters
 }
 
@@ -432,17 +413,9 @@ hr.small {
 }
 
 .carousel-indicators .active {
+  padding-bottom: 100px;
+  align: "bottom";
   background-color: #0cde34;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
 }
 
 /* Map */
