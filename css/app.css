@@ -383,46 +383,6 @@ hr.small {
 
 /* Carousel */
 
-@import ".../bootstrap.less";
-
-
-/*.carousel,
-.item,
-.active {
-  height: 500px;
-  margin-bottom: 60px;
-}*/
-
-/*.carousel-control {
-	top: 50%;
-}*/
-
-/*.carousel-inner {
-    /*min-height: 500px;*/
-    /*height: 100%;*/
-    width: 900px;
-    height: 600px;
-}*/
-
-.left carousel-control, .right carousel-control {
-    .reset-filter(); // reset IE gradient filters
-}
-
-/*.item blockquote {
-    border-left: none;
-    margin: 0;
-}
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}*/
-
-/*.carousel-indicators .active {
-  background-color: #0cde34;
-}*/
-
 /* Map */
 
 .map {

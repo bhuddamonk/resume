@@ -163,6 +163,3 @@ window.randomize = function() {
 }
 setTimeout(window.randomize, 200);
 $('.radial-progress').click(window.randomize);
-
-// make the carousel go round
-// $("#myCarousel").carousel();
