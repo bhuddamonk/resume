@@ -386,34 +386,29 @@ hr.small {
 @import ".../bootstrap.less";
 
 
-.carousel,
+/*.carousel,
 .item,
 .active {
   height: 500px;
   margin-bottom: 60px;
-}
+}*/
 
-.carousel-control {
+/*.carousel-control {
 	top: 50%;
-}
+}*/
 
-.carousel-inner {
+/*.carousel-inner {
     /*min-height: 500px;*/
     /*height: 100%;*/
     width: 900px;
     height: 600px;
-}
+}*/
 
 .left carousel-control, .right carousel-control {
-    background: none;
-    border: none;
     .reset-filter(); // reset IE gradient filters
 }
 
-.left carousel-control {margin-left: -45px;}
-.right carousel-control {margin-right: -45px;}
-
-.item blockquote {
+/*.item blockquote {
     border-left: none;
     margin: 0;
 }
@@ -422,12 +417,11 @@ hr.small {
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
-}
+}*/
 
-.carousel-indicators .active {
+/*.carousel-indicators .active {
   background-color: #0cde34;
-  z-index: 5;
-}
+}*/
 
 /* Map */
 
