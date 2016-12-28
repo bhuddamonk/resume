@@ -370,20 +370,6 @@ hr.small {
 		}
 		.loop(@i + 1);
 
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 /* Skills */
 
 .signature {
@@ -403,20 +389,30 @@ hr.small {
 .carousel,
 .item,
 .active {
-    max-width: 100%;
-    max-height: 900px;
-    min-height: 900px;
+  height: 500px;
+  margin-bottom: 60px;
 }
 
-.left-carousel-control, .right-carousel-control {
-        /*background-image: none;*/
-       .reset-filter(); // reset IE gradient filters
+.carousel-control {
+	top: 50%;
 }
 
 .carousel-inner {
     /*min-height: 500px;*/
-    height: 100%;
+    /*height: 100%;*/
+    width: 900px;
+    height: 600px;
 }
+
+.left carousel-control, .right carousel-control {
+    background: none;
+    border: none;
+    .reset-filter(); // reset IE gradient filters
+}
+
+.left carousel-control {margin-left: -45px;}
+.right carousel-control {margin-right: -45px;}
+
 .item blockquote {
     border-left: none;
     margin: 0;
@@ -428,14 +424,9 @@ hr.small {
     margin-right: 10px;
 }
 
-.job-text {
-  margin-top: 20px 80px 20px 80px;
-}
-
 .carousel-indicators .active {
-  padding-bottom: 100px;
-  align: "bottom";
   background-color: #0cde34;
+  z-index: 5;
 }
 
 /* Map */
@@ -452,6 +443,6 @@ hr.small {
 
 /* Footer */
 
-footer {
+.footer {
     padding: 100px 0;
 }
