@@ -242,10 +242,10 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
+/* Landing page */
 
-.about {
-    padding: 50px 0;
+.quote {
+    padding: 80px 0 80px 0;
 }
 
 /* Services */
@@ -373,11 +373,6 @@ hr.small {
 
 /* Skills */
 
-.signature {
-  margin: 0 auto;
-  padding-right: 60%;
-}
-
 .skill-list {
   align: left;
   width: 80%;
@@ -385,8 +380,11 @@ hr.small {
 
 /* Carousel */
 
-.slick-prev:before, .slick-next:before {
-    color:rgb(118, 144, 159) !important;
+/* Changing color of arrows, the default which can be found in the slick-theme.css was white */
+.slick-prev:before,
+.slick-next:before {
+  z-index: 999;
+  color: red;
 }
 
 /* Map */
