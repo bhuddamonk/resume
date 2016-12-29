@@ -16,6 +16,33 @@ canvas{
   vertical-align:bottom;
 }
 
+/* Carousel */
+
+/* Changing color of arrows, the default which can be found in the slick-theme.css was white */
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .50;
+    color: rgb(19, 27, 45) !important;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*Pushing the arrows out further from the margins*/
+.slick-prev {
+  left: -100px !important;
+}
+
+.slick-next {
+  right: -100px !important;
+}
+
+
 /* ---- stats.js ---- */
 
 .count-particles {
@@ -376,19 +403,6 @@ hr.small {
 .skill-list {
   align: left;
   width: 80%;
-}
-
-/* Carousel */
-
-/* Changing color of arrows, the default which can be found in the slick-theme.css was white */
-
-.slick-prev:before, .slick-next:before {
-    font-family: 'slick';
-    z-index: 1000;
-    font-size: 20px;
-    line-height: 1;
-    opacity: .75;
-    color: black !important;
 }
 
 /* Map */
