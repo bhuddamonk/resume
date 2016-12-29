@@ -381,10 +381,14 @@ hr.small {
 /* Carousel */
 
 /* Changing color of arrows, the default which can be found in the slick-theme.css was white */
-.slick-prev:before,
-.slick-next:before {
-  z-index: 999;
-  color: red;
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    z-index: 1000;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
 }
 
 /* Map */
