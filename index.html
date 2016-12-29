@@ -30,6 +30,9 @@
     <!-- Slick Carousel libs -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- Slick CDN refs -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 </head>
 
 <body>
@@ -79,7 +82,7 @@
                 <h2><em>Do nothing which is of no use.</em></h2>
                 <h2 style="padding-left: 100px;">~Miyamoto Musashi</h2>
             </div>
-            <a href="#summary" class="btn btn-light btn-light-circle">ENTER</a> </div>
+            <a href="#summary" class="btn btn-light btn-light-circle">ENTER</a>
         </div>
     </header>
     <!-- Summary -->
@@ -390,13 +393,13 @@
         </div>
     </div>
     </section>
-
     <!-- Footer -->
-    <footer>
+    <footer class="bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <div class="col-lg-10 col-lg-offset-1 text-center quote">
                     <a id="to-top" href="#top" class="btn btn-light-circle"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    <div class="quote">
                     <h4>Dennis W. Gyor</h4>
                     <p>12319 Wycliff Ln.
                         <br>Austin, TX 78727
@@ -420,18 +423,27 @@
                     </ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; BMK LLC. 2017</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <section id="map">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            <!-- insert google map here. -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
     <!-- Slick JS javascript files -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-
-    </script>
+    <script type="text/javascript"></script>
 </body>
 
 </html>
