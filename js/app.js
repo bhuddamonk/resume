@@ -163,3 +163,13 @@ window.randomize = function() {
 }
 setTimeout(window.randomize, 200);
 $('.radial-progress').click(window.randomize);
+
+// Slick JS functions
+$(document).ready(function(){
+  $('.slick-carousel').slick({
+    dots: true,
+    mobileFirst: true,
+    arrows: true,
+    swipeToSlide: true
+  });
+});

@@ -27,6 +27,9 @@
     <link href="css/app.css" rel="stylesheet">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Slick Carousel libs -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -194,8 +197,82 @@
     </section>
     <!-- Employment History -->
     <section id="experience">
-        <h2 class="text-center">Experience</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <h2 class="text-center">Experience</h2>
+                <div class="slick-carousel">
+                    <div><a href="http://www.ipsoft.com"><img src="img/ipsoft_logo.png" alt="IPsoft logo" class="img-responsive"></a>
+                        <div class="job-text">
+                            <h2>IPsoft Inc. | PaaS Manager</h2>
+                            <h4>June 2015 - Present</h4>
+                                <ul>
+                                    <li>Lead and coordinate a global team of engineers focused on collaborating with management in the NY office on implementing organizational structure to increase efficiency (tier system/career pathing, monthly knowledge sharing
+                                        sessions, redundancy coverage plans for critical clients). </li>
+                                    <li>Responsible for keeping production environments up and running while monitoring Nagios alerts and coordinating with the various application and client teams (DBAs, Technical Execs, Networking, Application, multiple service
+                                        teams).
+                                    </li>
+                                    <li>Troubleshooting platform issues which includes the ability to understand and use the following technologies (Java, RPM, Puppet, Bash, SSH, Message queues (Active MQ), Cassandra, Apache, Tomcat, MySQL, networking, OpenVPN,
+                                        AWS).
+                                    </li>
+                                    <li>Architected automated smoke tests via Ruby Selenium Web driver and XSLT transformation to generate HTML run reports. Also set up the Git repo and wrote documentation on the test architecture.</li>
+                                    <li>Take lead on triage conference bridges with external customers during outages/maintenances.</li>
+                                    <li>Internal support contact for all Atlassian issues and escalations (Confluence and Jira).</li>
+                                    <li>Collaborated with global managers by documenting and designing the L1-L3 system for platform engineers worldwide and also established guidelines and prerequisites for moving into those positions.</li>
+                                    <li>Hands on implementation of creations of CIs and adding them to the CMDB and deploying monitoring for various clients and internal infrastructure.</li>
+                                    <li>Wrote a <a href="https://github.com/bhuddamonk/resty ">load testing framework</a> for REST API calls utilizing Python for use in a high priority customer troubleshooting effort.</li>
+                                    <li>Created the defect submission process and guidelines for platform issues. Collaborate with development to prioritize defect commits and deployments for customers in production.</li>
+                                    <li>Working with development to establish test cases and automation for the next generation platform.</li>
+                                    <li>Take escalations and mentor junior team members on best practices and platform operation.</li>
+                                    <li>Coordinate with Technical Executives and team stakeholders on changes and deployments to customer environments.</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div><a href="http://www.csc.com/cloud/offerings/53410/104965-csc_agility_platform_cloud_management "><img src="img/CSC_Logo.png" alt="CSC logo" class="img-responsive"></a>
+                        <div class="job-text">
+                                <h2>CSC Inc. | Cloud Platform Engineer</h2>
+                                <h4>November 2014 - May 2015</h4>
+                                <ul>
+                                    <li>Provide support and escalations of customer issues from the professional services organization. Creating solutions for high priority time sensitive issues in the field.</li>
+                                    <li>Coaching various scrum teams and providing guidance for Jira Agile projects. Hosted a remote Jira 101 training session for the global CSC PMO organization.</li>
+                                    <li>Implementation and design of the Hybrid cloud CSC offering integrating the Agility product and cloud services/infrastructure in AWS and in VMware Virtual Cloud Director.</li>
+                                    <li>Configured, tested, and documented (in Confluence) Agility VM templates for windows instances in AWS. Created AMIs for customer usage.</li>
+                                    <li>Engaged in professional services implementations for new customer engagements by designing proof of concepts via remote working sessions and then handing off to the professional services team for production use.</li>
+                                    <li>Executed and documented test scenarios as well as implementing quality processes for internal Kickstart project that streamlines complex and time consuming agility installs using node/angular.js.</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div><a href="http://www.cdkglobal.com/"><img src="img/cdk_logo.jpg" alt="CDK Global logo" class="img-responsive"></a>
+                        <div>
+                            <h2>CDK Global | Build engineering, QA, Atlassian Adminisrator</h2>
+                            <h4>August 2013 - September 2014</h4>
+                            <ul>
+                                <li>Companywide Atlassian Jira administrator. Resolve user management and workflows for company process and projects. Also manage Artifactory, Crowd, Bamboo and Confluence. Designed JIRA training curriculum for the company.</li>
+                                <li>Architected automated smoke tests via Ruby Selenium Web driver and XSLT transformation to generate HTML run reports. Also set up the Git repo and wrote documentation on the test architecture.</li>
+                                <li>Wrote performance testing plan and wrote Jmeter scripts. Integrated with Blazemeter and trained video team. Handed off to the video testing team for completion.</li>
+                                <li>Completed and presented proof of concept for the development organization by taking a major revenue generating program and streamlining the build and deployment process reducing build and deployment time from over one
+                                    hour per deployment to 16 minutes to push using Bamboo and Tomcat manager.</li>
+                                <li>Monitored/Administered the Amazon AWS message queue for the video project and coordinated with the external client to keep process functioning and video files available for 3rd party clients.</li>
+                                <li>Programmed a command line Auth token generation utility using Ruby. Engineering uses it daily for authentication token generation. Also wrote an object oriented Test API for Authorization REST service using Ruby.</li>
+                                <li>Integrated Sonarqube with Bamboo to all high priority code projects (using Maven plugin). Also trained development on usage and proper analysis of reports.</li>
+                                <li>Architecting deployment solution using Puppet, Bamboo and Artifactory to prepare the IT org for continuous delivery. Working with development to implement Gitflows for our REST based API development projects.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div><a href="http://www.cvent.com"><img src="img/cvent-logo.png" alt="Cvent logo" class="img-responsive"></a>
+                    </div>
+                    <div><a href="https://www.crunchbase.com/organization/canwe-studios#/entity"><img src="img/canwe_logo.jpeg" alt="CanWe logo" class="img-responsive"></a>
+                    </div>
+                    <div><a href="http://www.hanger.com/Pages/default.aspx"><img src="img/hanger_logo.jpg" alt="Hanger logo" class="img-responsive"></a>
+                    </div>
+                    <div><a href="https://revworldwide.com/"><img src="img/rev-worldwide-logo.png" alt="Mpower logo" class="img-responsive"></a>
+                    </div>
 
+                    <div><img src="img/alchemy_logo.jpg" alt="Alchemy logo" class="img-responsive"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
 
     <!-- Footer -->
@@ -231,6 +308,14 @@
             </div>
         </div>
     </footer>
+    <!-- Slick JS javascript files -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
 </body>
 
 </html>
