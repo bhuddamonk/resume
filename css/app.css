@@ -1,4 +1,4 @@
-/* Global Styles */
+/* ---- Global Styles ---- */
 
 html,
 body {
@@ -16,32 +16,28 @@ canvas{
   vertical-align:bottom;
 }
 
-/* Carousel */
+/* ---- Slick.js Carousel ---- */
 
 /* Changing color of arrows, the default which can be found in the slick-theme.css was white */
 .slick-prev:before,
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 80px !important;
     line-height: 1;
 
-    opacity: .50;
+    opacity: .30 !important;
     color: rgb(19, 27, 45) !important;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /*Pushing the arrows out further from the margins*/
 .slick-prev {
-  left: -100px !important;
+  left: -120px !important;
 }
 
 .slick-next {
-  right: -100px !important;
+  right: -80px !important;
 }
-
 
 /* ---- stats.js ---- */
 
@@ -121,7 +117,8 @@ canvas{
   background-repeat: no-repeat;
 
 }
-/* Custom Button Styles */
+
+/* ---- Custom Button Styles ---- */
 
 .btn-dark {
     border-radius: 0;
@@ -163,13 +160,13 @@ canvas{
     opacity: 0.7;
 }
 
-/* Custom Horizontal Rule */
+/* ---- Custom Horizontal Rule ---- */
 
 hr.small {
     max-width: 100px;
 }
 
-/* Side Menu */
+/* ---- Side Menu ---- */
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -256,8 +253,7 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
-/* Header */
-
+/* ---- Header ---- */
 .header {
     display: table;
     position: relative;
@@ -269,14 +265,13 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Landing page */
-
+/* ---- Landing page ---- */
 .quote {
     padding: 80px 0 80px 0;
 }
 
 /* Services */
-
+/* ---- Custom Button Styles ---- */
 .services {
     padding: 50px 0;
 }
@@ -292,7 +287,8 @@ hr.small {
   width: 200px;
 }
 
-/* Skills */
+/* ---- Skills ---- */
+
 <style type="text/less"><style>
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
@@ -398,14 +394,12 @@ hr.small {
 		}
 		.loop(@i + 1);
 
-/* Skills */
-
 .skill-list {
   align: left;
   width: 80%;
 }
 
-/* Map */
+/* ---- Map ---- */
 
 .map {
     height: 500px;
@@ -417,7 +411,7 @@ hr.small {
     }
 }
 
-/* Footer */
+/* ---- Footer ---- */
 
 .footer {
     padding: 100px 0;
