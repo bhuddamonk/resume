@@ -94,6 +94,10 @@ canvas{
     vertical-align: middle;
 }
 
+.center-element {
+    margin-left: 47% !important;
+}
+
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
@@ -124,6 +128,7 @@ canvas{
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    margin: 20px;
 }
 
 .btn-dark:hover,
@@ -270,8 +275,7 @@ hr.small {
     padding: 80px 0 80px 0;
 }
 
-/* Services */
-/* ---- Custom Button Styles ---- */
+/* ---- Services ---- */
 .services {
     padding: 50px 0;
 }
