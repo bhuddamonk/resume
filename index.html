@@ -15,7 +15,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
     <!-- install jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
+    <!-- install green sock animation (for scrollmagic) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <!-- install ScrollMagic and indicator debugger -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <!-- latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- stats.js -->
     <script src="js/lib/stats.js"></script>
@@ -79,10 +84,10 @@
         <div class="text-vertical-center">
             <h1>Dennis W. Gyor</h1>
             <div class="quote">
-                <h2><em>Somebody once said that in looking for people to hire,
-                  you look for three qualities: integrity, intelligence, and energy.
-                  And if you don’t have the first, the other two will kill you.</em></h2>
-                <h2 style="padding-left: 250px">~Warren Buffett</h2>
+                <h2><strong>Somebody once said that in looking for people to hire,
+                    you look for three qualities: integrity, intelligence, and energy.
+                    And if you don’t have the first, the other two will kill you.</strong></h2>
+                <h2 style="padding-left: 100px;">~Warren Buffett</h2>
             </div>
             <a href="#summary" class="btn btn-light btn-light-circle">ENTER</a>
         </div>
@@ -94,7 +99,7 @@
                 <div class="col-sm-12">
                     <h2 class="text-center">Summary</h2>
                     <p>Hello,<br></br>
-                        As a technical professional and leader with more than fifteen years of combined experience in the healthcare, financial, and technology services industries, I have led software projects, software product deployments, and crafted end to end quality engineering
+                        As a technical professional and leader with more than fifteen years of combined experience in the healthcare, financial, and technology services industries, I have led software projects, software product deployments, designed cloud based solutions and crafted end to end quality engineering
                         initiatives. I have extensive experience applying leadership and establishing efective processes at start-up software companies. I am IT generalist with specialization focusing on delivering quality solutions on time and within budget. I possess proven ability by providing senior leadership in establishing IT strategy, goals,
                         and priorities for various technical organizations.
                     </p>
@@ -107,8 +112,8 @@
                         <li>Successfully led teams of professionals (testers, developers and engineers) utilizing a positive work ethic, a collaborative culture, and accountability for all actions as a team.</li>
                         <li>Consistently collaborating with management and iteratively improving quality and deployment of software projects.</li>
                         <li>Built a continuous integration pipeline from a legacy hand built system with using industry standard tools. This resulted in ability to integrate with the infrastructure and decreased build and test times significantly.</li>
-                        <li>Successfully collaborated with leadership in rebuilding the Linux platform depertment by implementing a training curriculum and a level system for the PaaS department.</li>
-                        <li>Planned and executed business strategy by implementing process, documentation and organizational structure that was instrumental in meeting requirements for being aquired by Cisco.</li>
+                        <li>Successfully collaborated with leadership in rebuilding the Linux platform department by implementing a training curriculum and a level system for the PaaS organization.</li>
+                        <li>Planned and executed business strategy by implementing process, documentation and organizational structure that was instrumental in meeting requirements for being acquired by Cisco.</li>
                     </ul><br>
                     <p>
                         For a more detailed presentation of my background and experience, please peruse the site and feel free to contact me. References are available on request.
@@ -162,7 +167,7 @@
                                     <strong>Blog</strong>
                                 </h4>
                                 <p>Stuff I've learned.</p>
-                                <a href="https://www.dennisgyor.com/" class="btn btn-light">GO</a>
+                                <a href="#" class="btn btn-light">GO</a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +196,7 @@
                             <li>
                                 <h4>Test and build:</h4> Selenium Web driver, WATIR, Test Rail, SOAP UI, Junit, ANT and NANT, Jenkins, Bamboo, Sikuli Script</li>
                             <li>
-                                <h4>Dev/Ops:</h4> Ansible, Virtual Box, AWS, vSphere, Virtual Cloud Director, basic networking, DNS, Docker</li>
+                                <h4>Dev/Ops:</h4> Ansible, Virtual Box, AWS, Docker, Azure, Vagrant vSphere/ESXi, Virtual Cloud Director, basic networking, DNS</li>
                             <li>
                                 <h4>SCM:</h4> Git, Maven, SonarQube, Bamboo, Hudson, ANT/NANT, Artifactory.</li>
                             <li>
@@ -222,10 +227,10 @@
                     <!-- current job -->
                     <div><a href="http://www.ipsoft.com"><img src="img/ipsoft_logo.png" alt="IPsoft logo" class="img-responsive"></a>
                         <div class="job-text">
-                            <h2>IPsoft Inc. | Platform as a Service (PaaS) Manager</h2>
+                            <h2>IPsoft Inc. | PaaS Manager</h2>
                             <h4>June 2015 to Present</h4>
                                 <ul>
-                                    <li>Leading a team of engineers (12) focused on collaborating with management in the NY office on implementing organizational structure to increase efficiency (tier system/career pathing, monthly knowledge sharing
+                                    <li>Lead and coordinate a global team of engineers focused on collaborating with management in the NY office on implementing organizational structure to increase efficiency (tier system/career pathing, monthly knowledge sharing
                                         sessions, redundancy coverage plans for critical clients). </li>
                                     <li>Responsible for keeping production environments up and running while monitoring Nagios alerts and coordinating with the various application and client teams (DBAs, Technical Execs, Networking, Application, multiple service
                                         teams).</li>
@@ -236,11 +241,10 @@
                                     <li>Internal support contact for all Atlassian issues and escalations (Confluence and Jira).</li>
                                     <li>Collaborated with global managers by documenting and designing the L1-L3 system for platform engineers worldwide and also established guidelines and prerequisites for moving into those positions.</li>
                                     <li>Hands on implementation of creations of CIs and adding them to the CMDB and deploying monitoring for various clients and internal infrastructure.</li>
-                                    <li>Wrote a <a href="https://github.com/dennisgyor/resty">load testing framework</a> for REST API calls utilizing Python for use in a high priority customer troubleshooting effort.</li>
+                                    <li>Wrote a <a href="https://github.com/bhuddamonk/resty">load testing framework</a> for REST API calls utilizing Python for use in a high priority customer troubleshooting effort.</li>
                                     <li>Created the defect submission process and guidelines for platform issues. Collaborate with development to prioritize defect commits and deployments for customers in production.</li>
-                                    <li>Use Ansible/Semaphore to download RPMs and patch production monitoring servers.</li>
                                     <li>Take escalations and mentor junior team members on best practices and platform operation.</li>
-                                    <li>Coordinate with Technical Executives and team stakeholders on changes and deployments to customer environments.</li>
+                                    <li>Designed failover solution for monitoring nodes using Azure and traffic manager.</li>
                                 </ul>
                         </div>
                     </div>
@@ -401,12 +405,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center quote">
-                    <a id="to-top" href="#top" class="btn btn-light-circle"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+                    <a id="to-top" href="#top" class="btn btn-light-circle scrollblock"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
                     <div class="quote">
                     <h4>Dennis W. Gyor</h4>
-                    <p>12319 Wycliff Ln.
-                        <br>Austin, TX 78727
-                    </p>
+                    <p>Austin, TX</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (512) 789-0006</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:dennisgyor@gmail.com">dennisgyor@gmail.com</a>
@@ -446,7 +448,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 </body>
 
 </html>
